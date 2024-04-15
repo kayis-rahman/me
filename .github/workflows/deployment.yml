@@ -30,6 +30,10 @@ jobs:
         uses: stephenswat/hakyll-build-pages@v1.0.7
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2.0.0
+        with:
+          context: .
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
   deploy:
     environment:
