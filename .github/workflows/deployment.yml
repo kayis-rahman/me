@@ -23,9 +23,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Hakyll
-        uses: stephenswat/hakyll-build-pages@v1
+        uses: stephenswat/hakyll-build-pages@v1.0.7
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v1.0.7
 
   deploy:
     environment:
