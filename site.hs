@@ -9,7 +9,7 @@ import           Text.Pandoc
 config :: Configuration
 config = defaultConfiguration
   {
-   destinationDirectory = "docs"
+   destinationDirectory = "_site"
    , previewPort          = 5000
   }
 
