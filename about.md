@@ -1,22 +1,11 @@
 ---
-title: About
+title: About me
 headerImg: beach.jpg
 ---
 
-Nullam imperdiet sodales orci vitae molestie. Nunc quam orci, pharetra a
-rhoncus vitae, eleifend id felis. Suspendisse potenti. Etiam vitae urna orci.
-Quisque pellentesque dignissim felis, egestas tempus urna luctus vitae. In hac
-habitasse platea dictumst. Morbi fringilla mattis odio, et mattis tellus
-accumsan vitae.
-
-1. Amamus Unicode 碁
-2. Interdum nex magna.
-
-Vivamus eget mauris sit amet nulla laoreet lobortis. Nulla in diam elementum
-risus convallis commodo. Cras vehicula varius dui vitae facilisis. Proin
-elementum libero eget leo aliquet quis euismod orci vestibulum. Duis rhoncus
-lorem consequat tellus vestibulum aliquam. Quisque orci orci, malesuada porta
-blandit et, interdum nec magna.
+Hey there! I'm Kayis Rahman, an unstoppable force in the world of technology. With over 8 years of industry experience, I've conquered challenges, shattered expectations, and propelled projects to new heights.
+My journey is fueled by a relentless passion for innovation and a thirst for excellence. From Java to Spring, from project management to problem-solving, I thrive on pushing boundaries and creating solutions that make a difference.
+Join me on this exhilarating adventure, and let's redefine what's possible in the world of software development.
 
 
 

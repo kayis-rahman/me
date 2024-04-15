@@ -10,6 +10,7 @@ config :: Configuration
 config = defaultConfiguration
   {
    destinationDirectory = "docs"
+   , previewPort          = 5000
   }
 
 main :: IO ()
@@ -18,7 +19,7 @@ main = hakyllWith config $ do
         route idRoute
         compile copyFileCompiler
 
-    match (fromList ["about.md", "contact.markdown"]) $ do
+    match (fromList ["about.md", "contact.md", "hire-me.md"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/page.html" siteCtx
@@ -72,8 +73,8 @@ postCtx =
 
 siteCtx :: Context String
 siteCtx =
-    constField "baseurl" "https://kayis-rahman.github.io" `mappend`
-    constField "site_description" "my beautiful blog" `mappend`
+    constField "baseurl" "http://127.0.0.1:5000" `mappend`
+    constField "site_description" "Welcome to my world of innovation and excellence, where every line of code tells a story of passion and expertise." `mappend`
     constField "instagram_url" "https://instagram.com/kayisrahman" `mappend`
     constField "twitter_url" "https://twitter.com/kayisrahman" `mappend`
     constField "github_url" "https://github.com/kayis-rahman" `mappend`
