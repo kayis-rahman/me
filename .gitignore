@@ -1,3 +1,5 @@
-.idea
-_cache/
-.stack-work/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
