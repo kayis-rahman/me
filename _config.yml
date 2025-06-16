@@ -22,7 +22,7 @@ title: Kayis Rahman
 email: kaisbk1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software Engineer | Cloud Enthusiast | Tech Leader | Java
-baseurl: "/me" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kayis-rahman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kayisrahman
 github_username:  kayisrahman
@@ -55,7 +55,7 @@ exclude:
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
-  - Gemfile.lock
+  - Gemfile.lockme
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
